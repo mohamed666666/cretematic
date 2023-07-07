@@ -1,0 +1,16 @@
+.footer-container{
+    justify-content: space-between;
+
+}
+.left-footer{
+    gap: 1rem;
+}
+
+.menu-footer{
+    gap: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    color: white;
+
+}

@@ -1,0 +1,22 @@
+.App{
+    position: relative;
+    overflow-x: clip;
+}
+
+
+.App>:nth-child(1){
+    background: var(--black);
+
+    position: relative;
+}
+
+.white-gredaint{
+    top:5rem;
+    position: absolute;
+    width:20rem;
+    height: 20rem;
+    z-index: 2;
+    background: rgba(252, 255, 255, 0.699);
+    filter: blur(100px);
+    border-radius: 100%;
+}

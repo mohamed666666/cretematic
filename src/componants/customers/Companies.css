@@ -1,0 +1,28 @@
+.comp-container{
+    gap: 3rem;
+    justify-content: space-around;
+    background: white;
+}
+.comp-head{
+    background-color: white;
+    color:rgba(67,67,67,19);
+}
+.comp-container>img{
+    width: 9rem;
+  
+}
+
+.comp-wrapper{
+    position: relative;
+  
+    
+}
+
+
+.comp-wrapper>h1{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    background: white;
+}

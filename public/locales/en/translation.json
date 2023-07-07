@@ -1,0 +1,47 @@
+{
+    "main": {
+      "header":{
+        "home":"Home","about":"About ","solutions":"Solutions","contact":"Contact us","strat":"Get started"
+      },  
+      "hero":{
+        "tit1":"Cretematic",
+        "tit2":"Structural Elements.",
+        "desc":" Cretematic is a manufacturer of a full range of precast building components including the provision of all services .fromconceptualization , design , installation and after sales service. Also, we have all facilities to producewide range with high quality of cement blocks, inter-lock & ready mix concrete."
+      },
+      "cust":"Our Customers",
+      "prods":"Products",
+      "about":{
+        "ab":"About Us",
+        "mess":"Our Mession",
+        "messdesc":"understanding of the local and regional market, we aim to  delivering high-end quality products including fences,  columns, slabs, beams, warehouses and structural elements.    We apply the latest European technologies to our production    systems, with enables us to deliver quality services.",
+        "vess":"Our Vession",
+        "vdesc":"We seek to expand our services in the region and globally, and we look forward to achieving sustainable growth and developing new strategies to improve our services and provide real value to our customers.",
+        "abdesc":" Cretematic is a renowned company Located in Egypt   since….specializing in precast concrete and Hollow core systems.   With vast understanding of the local and regional market , we aim    to delivering high-end quality products including fences, columns,   slabs, beams, warehouses and structural elements. We apply the     latest European technologies to our production systems, with enables us to deliver quality services."
+      },
+      "cont":{
+        "tit":"Contact Us ",
+        "info":"Easy to contact us for more informations ",
+        "address":"Cretematic, Cairo, Egypt.",
+        "call":"Call",
+        "calln":"Call now",
+        "ph":"Phone",
+        "em":"E-mail",
+        "m":"Mail",
+        "a":"Address",
+        "name":"Full name ",
+      "massege":" Write your message...  "
+      }
+    },
+    "pdetail":{
+      "why":"Why Choose Cretematic ",
+      "what":"What is "
+    },
+    "solpage":{
+      "header":"All  Cretematic solutions ."
+    }
+    ,"Apage":{
+      "gtit":"Our Goal",
+      "desc1":"Cretematic is a manufacturer of a full range of precast building components including the provision of all services .fromconceptualization , design , installation and after sales service. Also, we have all facilities to producewide range with high quality of cement blocks, inter-lock & ready mix concrete.",
+      "goal":"The goal of Cretematic Precast Concrete is to provide high quality products and excellent services to customers. Qualified and trained staff strives to achieve customer satisfaction by offering a range of products characterized by sustainability and excellent performance. The company's team focuses on continuous innovation and improving the quality of its products and services with the latest available technologies, as they work hard to meet the current and future market requirements. Green in its operations.  In addition, the company seeks to develop a wide network of honest and long-term business relationships with customers and business partners around the world, as it believes that common interests and effective cooperation is the key to success in business. From this standpoint Cretematic works to achieve more success and spread in the international markets and to provide innovative and flexible solutions to its customers, taking into account the highest standards of quality, safety and sustainability. Our vision for Cretematic Precast Concrete Company is to be the leading company in the field of precast concrete"
+    }
+  }

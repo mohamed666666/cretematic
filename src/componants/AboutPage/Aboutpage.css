@@ -1,0 +1,24 @@
+
+.info{
+    gap:5rem;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2000;
+   
+   
+}
+.a-container{
+    background: white;
+}
+.a-wrapper{
+    background: white;
+}
+.gtit{
+    margin-bottom: 2rem;
+}
+
+
+.desc{
+    color: white;
+}
+

@@ -1,0 +1,161 @@
+
+
+.Contpage-wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+    background: white;
+    
+}
+
+
+
+.header{
+    max-width: 800;
+    align-items: center;
+}
+
+.header h2{
+    
+    align-items: center;
+    z-index: 7;
+}
+
+.container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+.container>div{
+    flex: 1;
+}
+
+.container .contact-info{
+    width: 50%;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+.container .contact-info .box{
+   position: relative;
+   padding: 20px;
+   display: flex;
+}
+.container .contact-info .box .text{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+
+ }
+
+ .container .contact-info .box .text .h3{
+    font-weight: 500;
+    color: black;
+ }
+
+.contact-form{
+    width: 40%;
+    background: #fff;
+    padding: 40px;
+
+
+ }
+.contact-form h2{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.contact-form .input-box input , .contact-form .input-box textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+
+.contact-form .input-box span{
+    position: absolute;
+    left:0;
+    padding: 5px 0 ;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+
+.contact-form .input-box input:focus ~ span,
+.contact-form .input-box input:valid ~ span,
+.contact-form .input-box textarea:focus ~ span,
+.contact-form .input-box textarea:valid ~ span{
+    color: #e91e63e9;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact-form .input-box input[type="submit"]{
+    width: 100%;
+    background:rgba(211,32,39,255);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media screen {
+    
+}
+
+@media (max-width:800px){
+    .Contpage-wrapper{
+        padding: 50px;
+        gap: 2rem;
+        flex-direction: column;
+        
+    }
+   
+    
+  
+
+
+
+    .container .contact-info{
+        margin-bottom: 40px;
+    }
+    .container .contact-info, .contact-form
+    {
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+}

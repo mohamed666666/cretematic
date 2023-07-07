@@ -1,0 +1,158 @@
+.hero-wrapper{
+    color:var(--black);
+    position: relative;
+    background: white;
+   
+
+
+}
+
+.hero-container{
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 0;
+  
+
+
+}
+
+.red{
+    color: rgba(211,32,39,255);
+}
+/* left side   */
+
+.hero-left{
+    gap: 3rem;
+    width: 35rem;
+    margin: 20%;
+    
+}
+.hero-desc{
+    top:0rem;
+}
+.hero-desc >span{
+    display:inline-block ;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+  
+
+    
+}
+
+.hero-title{
+    position: relative;
+    z-index: 5;
+    top:-2rem;
+    
+}
+
+.hero-title>h1{
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 4rem;
+}
+
+
+
+/*right side */
+
+
+.hero-image{
+    width: 30rem;
+    height: 35rem;
+
+    overflow: hidden;
+    border-radius: 0rem 0rem 0 0;
+    border: 8px solid rgb(255,255, 255,0.12);
+
+}
+
+.hero-image>img{
+    width: 100%;
+    height: 100%;
+}
+.har{
+    top:0rem;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    text-align: right;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.slider {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  
+   }
+    
+   .slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slider 12.5s infinite;
+   }
+    
+   .slider .slide:nth-child(1) {
+    
+    background-image: url('dist/About.jpg') !important; 
+      animation-delay: 0s;
+   }
+   
+   .slider .slide:nth-child(2) {
+      background-image: url('dist/hero1.jpg') !important;
+      animation-delay: -2.5s;
+   }
+   
+   .slider .slide:nth-child(3) {
+      background-image: url('dist/hero2.jpg') !important;
+      animation-delay: -5s;
+   }
+   
+   
+   @keyframes slider {
+    0%, 16%, 100% {
+      transform: translateX(0);
+      animation-timing-function: ease;
+    }
+    20% {
+      transform: translateX(-100%);
+      animation-timing-function: step-end;
+    }
+    96% {
+      transform: translateX(100%);
+      animation-timing-function: ease;
+    }
+   }
+
+@media (max-width :640px) {
+    .hero-container{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .hero-title>h1{
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .har{
+        text-align: right;
+        flex-direction: row;
+    }
+    .hero-image{
+        width: 98%;
+        height: 25rem;
+    }
+    .hero-left{
+        gap : 1rem;
+    }
+}
+
