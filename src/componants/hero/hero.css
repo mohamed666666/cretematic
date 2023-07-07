@@ -28,7 +28,7 @@
     
 }
 .hero-desc{
-    top:0rem;
+    top:-1rem;
 }
 .hero-desc >span{
     display:inline-block ;
